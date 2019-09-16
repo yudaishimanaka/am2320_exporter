@@ -1,0 +1,4 @@
+github.com/oltoko/go-am2320 v1.0.0 h1:bX2uvScMrTUkkFwX9R5kDakBoawMEfpjbdJecLVCZf8=
+github.com/oltoko/go-am2320 v1.0.0/go.mod h1:h2Bgokuctvt5/eKXC5yt/OmHWcWhqN4KXslADbmp95w=
+golang.org/x/sys v0.0.0-20190502175342-a43fa875dd82 h1:vsphBvatvfbhlb4PO1BYSr9dzugGxJ/SQHoNufZJq1w=
+golang.org/x/sys v0.0.0-20190502175342-a43fa875dd82/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
