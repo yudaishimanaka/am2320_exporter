@@ -10,3 +10,6 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# am2320-exporter
+am2320-exporter
