@@ -15,6 +15,7 @@ It is also possible to deploy on Kubernetes.
 
 ### Go
 Build the program on your computer or Raspberry Pi.  
+`export GO111MODULE=on`  
 `GOOS=linux GOARCH=arm GOARM=7 go build`  
 
 Binary execution.  
