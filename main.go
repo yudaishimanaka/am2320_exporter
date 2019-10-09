@@ -61,7 +61,7 @@ func (c Collector) Collect(ch chan<- prometheus.Metric) {
 func main() {
 	var listenAddress = flag.String(
 		"listen-address",
-		":9700",
+		":9430",
 		"The address to listen on for HTTP requests.",
 	)
 	flag.Parse()
