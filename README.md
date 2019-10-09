@@ -7,10 +7,10 @@ For temperature and humidity monitoring using Raspberry Pi and Docker.
 It is also possible to deploy on Kubernetes.  
 
 ## Exported metrics
-| metric                  | description                      | labels |
-| ----------------------- | -------------------------------- | ------ |
-| am2320_tempreture_gauge | temperature obtained from am2320 |        |
-| am2320_humidity_gauge   | humidity obtained from am2320    |        |
+| metric                   | description                      | labels |
+| ------------------------ | -------------------------------- | ------ |
+| am2320_temperature_gauge | temperature obtained from am2320 |        |
+| am2320_humidity_gauge    | humidity obtained from am2320    |        |
 
 ## Requirements
 - Go 1.12.x ~ (Your computer or Raspberry Pi)
