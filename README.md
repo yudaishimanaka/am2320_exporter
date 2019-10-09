@@ -22,7 +22,7 @@ Binary execution.
 `sudo ./am2320-exporter`  
 
 ### Docker
-`docker run -i -t -d --name am2320_exporter --privileged yudaishimanaka/am2320-exporter-armv7l`
+`docker run -i -t -d --name am2320_exporter -p 9430:9430 --privileged yudaishimanaka/am2320-exporter-armv7l`
 
 ### Kubernetes
 Configure Pod Affinity according to your Kubernetes cluster and deploy appropriately.  
@@ -44,7 +44,7 @@ spec:
         app: am2320-exporter
       annotations:
         prometheus.io/scrape: 'true'
-        prometheus.io/port: '9700'
+        prometheus.io/port: '9430'
         prometheus.io/path: /metrics
     spec:
       containers:
@@ -54,7 +54,7 @@ spec:
         securityContext:
           privileged: true
         ports:
-        - containerPort: 9700
+        - containerPort: 9430
       hostNetwork: true
       hostPID: true
 ```
