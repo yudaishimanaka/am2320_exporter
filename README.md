@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./temperature-sensor.png" alt="am2320_exporter" width="128" height="128">
+</div>
+
 # am2320_exporter  
 Prometheus Exporter that acquires temperature and humidity from the sensor [AM2320](http://akizukidenshi.com/download/ds/aosong/AM2320.pdf).  
 
